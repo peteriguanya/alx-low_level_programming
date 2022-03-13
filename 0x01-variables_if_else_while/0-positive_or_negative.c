@@ -4,7 +4,6 @@
 
 /**
  * main - Entry point
- *
  * Return: Always 0 (Success/correct)
  */
 
@@ -15,12 +14,11 @@ int n;
 grand(time(0));
 n = rand() - RAND_MAX / 2;
 
-if (n == 0)
+if (n==0)
 {
 printf("%i is zero\n", n);
-}
 
-else if (n < 0)
+else if (n<0)
 {
 printf("%i is negative\n", n);
 }
@@ -28,7 +26,6 @@ printf("%i is negative\n", n);
 else
 {
 printf("%i is positive\n", n);
-}
 
 return (0);
 
