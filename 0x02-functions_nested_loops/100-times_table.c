@@ -2,8 +2,7 @@
 
 /**
  * print_times_table - Prints the times table of the input, starting with zero
- * @n: The value of the times table to be printed.
- * 
+ * @n: The value of the times table to be printed. 
  * Return: returns nothing
  */
 void print_times_table(int n)
@@ -15,19 +14,19 @@ void print_times_table(int n)
 		for (digit = 0; digit <= n; digit++)
 		{
 			_putchar('0');
-			
+
 			for (mult = 1; mult <= n; mult++)
 			{
 				_putchar(',');
 				_putchar(' ');
-				
+
 				result = digit * mult;
-				
+
 				if (result <= 99)
 					_putchar(' ');
 				if (result <= 9)
 					_putchar(' ');
-				
+
 				if (result >= 100)
 				{
 					_putchar((result / 100) + '0');
