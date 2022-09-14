@@ -1,6 +1,7 @@
 #include "main.h"
 /**
- * print_times_table - prints the  times table with parameter
+ * print_times_table - prints the  times table with
+ * parameter
  * @n: parameter
  * Return: returns nothing
  */
@@ -27,7 +28,7 @@ if (result >= 100)
 {
 _putchar((result / 100) + '0');
 _putchar((result / 10) % 10 + '0');
-}
+{
 else if (result <= 99 && result >= 10)
 }
 _putchar((result / 10) + '0');
