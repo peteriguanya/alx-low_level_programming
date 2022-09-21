@@ -1,4 +1,5 @@
 #include "main.h"
+int main(void)
 
 /**
  * rot13 - encodes a string into rot13
