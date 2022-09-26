@@ -5,7 +5,7 @@
  * @s: string
  * @c: character
  *
- * Return: Pointer to first occurrence of c in the s
+ * Return: Pointer to spot in s with c or null
  */
 
 char *_strchr(char *s, char c)
@@ -18,5 +18,5 @@ char *_strchr(char *s, char c)
 			return (s + d);
 	}
 
-	return (NULL);
+	return (0);
 }
