@@ -5,9 +5,8 @@
  * @haystack: needle search string\
  * @needle: find occurrence of substring in haystack
  *
- * Return: a pointer to beginning of substring, or NULL if substring is not found
+ * Return: pointer to beginning of substring, or NULL if substring is not found
  */
-
 char *_strstr(char *haystack, char *needle)
 {
 	for (; *haystack != '\0'; haystack++)
