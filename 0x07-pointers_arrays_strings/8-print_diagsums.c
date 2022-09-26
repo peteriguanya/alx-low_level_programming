@@ -14,9 +14,9 @@ void print_diagsums(int *a, int size)
 	for (d = 0; d <= (size * size); d++)
 	{
 		if (d % (size + 1) == 0)
-			sum1 += *(a + d);
+			total1 += *(a + d);
 		if (d % (size - 1) == 0 && d != 0 && d < size * size - 1)
-			sum2 += *(a + d);
+			total2 += *(a + d);
 	}
 	printf("%d, %d\n", total1, total2);
 }
