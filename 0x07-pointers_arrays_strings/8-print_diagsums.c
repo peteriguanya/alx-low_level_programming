@@ -2,8 +2,8 @@
 
 /**
  * print_diagsums - Print the sum of two diagonals of square matrix
- * @a: the matrix
- * @size: the size
+ * @a: pointer to start of matrix
+ * @size: the width of matrix column
  *
  * Return: void
  */
