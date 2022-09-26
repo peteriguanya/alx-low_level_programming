@@ -7,7 +7,7 @@
  *
  * Return: void
  */
-void set_string(char **p, char *to)
+void set_string(char **s, char *to)
 {
-	*p = to;
+	*s = to;
 }
