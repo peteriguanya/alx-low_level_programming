@@ -2,8 +2,8 @@
 
 /**
  * _strstr - a function that locates a substring
- * @haystack: needle search string\
- * @needle: find occurrence of substring in haystack
+ * @haystack: string to check for needle
+ * @needle: substring to find in haystack
  *
  * Return: pointer to beginning of substring, or NULL if substring is not found
  */
