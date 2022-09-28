@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * _pow_recursion - function that returns the natural square root of a number
+ * _pow_recursion - function that returns the value of x raised to the power of y
  * @x: the number to multiply
  * @y: the times to multiply the number
  *
