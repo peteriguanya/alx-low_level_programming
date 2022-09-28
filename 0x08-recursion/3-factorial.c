@@ -8,9 +8,9 @@
  */
 int factorial(int n)
 {
-	if (r < 0)
+	if (n < 0)
 		return (-1);
-	if (r == 0)
+	if (n == 0)
 		return (1);
-	return (r * factorial(r - 1));
+	return (n * factorial(n - 1));
 }
