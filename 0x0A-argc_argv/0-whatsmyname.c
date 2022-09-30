@@ -2,11 +2,11 @@
 #include <stdio.h>
 
 /**
- * main - Prints name of program followed by new line
- * @argc: argument to be counted
+ * main - Prints name of program
+ * @argc: argument vector
  * @argv: argument vector
  *
- * Return: Always zero
+ * Return: Always 0
  */
 int main(int argc, char *argv[])
 {
