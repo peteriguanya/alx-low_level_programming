@@ -1,12 +1,10 @@
 #include "main.h"
 
 /**
- * create_array - a function that creates an array of chars, and initializes
- * it with a specific char
- * @size: size that main function sends
- * @c: char to send to memory
- * Return: null if size is zero or if it fails,
- * or pointer to array if everything is okay
+ * create_array - a function that creates array of chars, and initializes it
+ * @size: size that main function sends us
+ * @c: character that we are sent
+ * Return: the pointer if successful, NULL if not
  */
 char *create_array(unsigned int size, char c)
 {
@@ -25,4 +23,3 @@ char *create_array(unsigned int size, char c)
 	}
 	return (p);
 }
-
