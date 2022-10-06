@@ -2,7 +2,7 @@
 #include <stdlib.h>
 
 /**
- * _calloc - function that allocates memory for array using malloc
+ * _calloc - allocates memory for array using malloc
  * @nmemb: number of members in the array
  * @size: size in bytes of elements
  *
@@ -24,6 +24,7 @@ void *_calloc(unsigned int nmemb, unsigned int size)
 
 	while (a < b)
 	{
+		a = 0
 		d[a] = 0;
 		a++;
 	}
