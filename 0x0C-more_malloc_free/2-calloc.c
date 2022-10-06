@@ -2,9 +2,9 @@
 #include <stdlib.h>
 
 /**
- * _calloc - function that allocates memory for an array, using malloc
+ * _calloc - function that allocates memory for array using malloc
  * @nmemb: number of members in the array
- * @size: size
+ * @size: size in bytes of elements
  *
  * Return: void pointer to the allocated memory
  */
