@@ -20,5 +20,5 @@ int pop_listint(listint_t **head)
 		*head = new_head;
 	}
 
-	return (n);
+	return (j);
 }
