@@ -2,7 +2,7 @@
 #include "lists.h"
 
 /**
- * pop_listint - function that deletes head of node from listint_t linked list
+ * pop_listint - function to remove node from top
  * @head: pointer to head node
  *
  * Return: always successful
