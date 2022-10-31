@@ -3,8 +3,8 @@
 #include "main.h"
 
 /**
- * print_binary - function that prints binary representation of a number
- * @n: unsigned long  int type;
+ * print_binary - function that prints binary representation of number
+ * @n: unsigned long  int type
  *
  * Return: always successful
  */
