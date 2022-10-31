@@ -4,34 +4,36 @@
 
 /**
  * print_binary - function that prints binary representation of number
+ * @n: The number to representing in binary
+ *
+ * Return: Nothing
+ */
+void print_binary(unsigned long int n)
+{
+	if (n == 0)
+	{
+		_putchar('0');
+		return;
+	}
+
+	_divide(n);
+}
+
+/**
+ * _divide - function that divides binary
  * @n: unsigned long  int type
  *
  * Return: always successful
  */
-void print_binary(unsigned long int n)
+void _divide(unsigned long int n)
 {
-	unsigned long int check;
-	unsigned int size = sizeof(n) * 8;
-	unsigned int count;
-	unsigned int flag = 1;
+	if (n < 1)
+		return;
 
-	count = 0;
-	while (count < size)
-	{
-		check = (n << 1);
-		check >>= 1;
-		if (n != check)
-		{
-			flag = 0;
-			write(1, "1", 1);
-		}
-		else if (!flag)
-		{
-			write(1, "0", 1);
-		}
-		n <<=  1;
-		count++;
-	}
-	if (flag == 1)
-		write(1, "0", 1);
+	_divide(n >> 1);
+
+	if (n & 1)
+		_putchar('1');
+	else
+		_putchar('0');
 }
