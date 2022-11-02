@@ -3,7 +3,7 @@
 
 /**
  * main - C program that copies the content of a file to another file
- * @argc: size of array argv and number of command line arguments
+ * @argc: size of array argc and number of command line arguments
  * @av: An  array  of size argc
  *
  * Return: Always successful
