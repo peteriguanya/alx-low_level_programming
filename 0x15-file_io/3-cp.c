@@ -22,8 +22,8 @@ int main(int argc, char **argv)
 
 /**
  * copy_file - file to be copied
- * @src: array in commandline
- * @dest: array of size src
+ * @src: size of array src
+ * @dest: array of size dest
  *
  * Return: Always successful
  */
