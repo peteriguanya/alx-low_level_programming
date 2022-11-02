@@ -1,5 +1,9 @@
 #include <stdio.h>
-#include "main.h"
+#include <stdlib.h>
+#include <sys/stat.h>
+#include <sys/types.h>
+#include <fcntl.h>
+#include <unistd.h>
 
 /**
  * main - C program that copies the content of a file to another file
